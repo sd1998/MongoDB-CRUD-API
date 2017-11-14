@@ -1,2 +1,2 @@
 # MongoDB-CRUD-API
-A node js API for performing CRUD operations on MongoDB
+A nodejs API for performing CRUD operations on MongoDB
