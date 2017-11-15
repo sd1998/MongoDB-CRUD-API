@@ -8,8 +8,7 @@ const port = 8080;
 app.use(bodyParser.urlencoded({ extended : true }));
 mongoClient.connect(url,function(err,db){
   if(err){
-    console.log(err);
-    res.send({'error' : 'An error has occured'});
+    return console.log(err);
   }
   app.post('/addDocument',function(req,res){
     const data = {
